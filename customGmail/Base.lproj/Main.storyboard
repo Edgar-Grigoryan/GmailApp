@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tbc-XW-H7D">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="hR7-Tw-893">
+            <objects>
+                <viewController id="cvi-m7-6vv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gDb-CQ-VWK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="5it-eu-vEy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="message" catalog="system" selectedImage="message.fill" id="lau-bH-7rG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sEw-Zd-rR0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-815" y="-1254"/>
+        </scene>
+        <!--Mails View Controller-->
+        <scene sceneID="vga-63-ffX">
+            <objects>
+                <viewController id="cXM-OJ-Zlo" customClass="MailsViewController" customModule="customGmail" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HoJ-Ji-d9p">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="HTe-07-wb2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="envelope" catalog="system" selectedImage="envelope.fill" id="c2W-U9-nWi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f0Y-gQ-Gzz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1653" y="-1253"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5As-hO-tlR">
+            <objects>
+                <viewController id="XC3-hK-aEl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CGa-Xa-fKI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="BDG-AR-amc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="person.3" catalog="system" selectedImage="person.3.fill" id="ce7-Ik-SQ4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n92-Qb-Y0c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21" y="-1254"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="icC-Hc-JEK">
+            <objects>
+                <viewController id="69l-fE-7Fu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="552-nX-e1a">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Kcs-z1-uA5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="video" catalog="system" selectedImage="video.fill" id="V3j-ji-jGn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bgs-gd-iht" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749" y="-1254"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="25n-xs-Ln4">
+            <objects>
+                <tabBarController id="tbc-XW-H7D" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gPX-qF-eih">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="standardAppearance">
+                            <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tabBarAppearance>
+                        <tabBarAppearance key="scrollEdgeAppearance">
+                            <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tabBarAppearance>
+                    </tabBar>
+                    <connections>
+                        <segue destination="cXM-OJ-Zlo" kind="relationship" relationship="viewControllers" id="ViT-Tm-pWW"/>
+                        <segue destination="cvi-m7-6vv" kind="relationship" relationship="viewControllers" id="57T-wS-bPx"/>
+                        <segue destination="XC3-hK-aEl" kind="relationship" relationship="viewControllers" id="kv2-wt-Djd"/>
+                        <segue destination="69l-fE-7Fu" kind="relationship" relationship="viewControllers" id="PCO-VD-QXO"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="euP-iK-BGR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2360" y="-390"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="envelope" catalog="system" width="128" height="93"/>
+        <image name="envelope.fill" catalog="system" width="128" height="93"/>
+        <image name="message" catalog="system" width="128" height="116"/>
+        <image name="message.fill" catalog="system" width="128" height="114"/>
+        <image name="person.3" catalog="system" width="128" height="62"/>
+        <image name="person.3.fill" catalog="system" width="128" height="61"/>
+        <image name="video" catalog="system" width="128" height="82"/>
+        <image name="video.fill" catalog="system" width="128" height="81"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

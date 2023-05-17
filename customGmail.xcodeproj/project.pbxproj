@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38D79184471EC415378AAFDB /* Pods_customGmail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA74C958423D18EF569219F /* Pods_customGmail.framework */; };
+		F01BE6232A15103900D0FF7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01BE6222A15103900D0FF7E /* AppDelegate.swift */; };
+		F01BE6252A15103900D0FF7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01BE6242A15103900D0FF7E /* SceneDelegate.swift */; };
+		F01BE62A2A15103900D0FF7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01BE6282A15103900D0FF7E /* Main.storyboard */; };
+		F01BE62C2A15103A00D0FF7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01BE62B2A15103A00D0FF7E /* Assets.xcassets */; };
+		F01BE62F2A15103A00D0FF7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01BE62D2A15103A00D0FF7E /* LaunchScreen.storyboard */; };
+		F01BE6372A15119F00D0FF7E /* MailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01BE6362A15119F00D0FF7E /* MailCell.swift */; };
+		F01BE6602A1548F800D0FF7E /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01BE65F2A1548F800D0FF7E /* Mail.swift */; };
+		F01BE6652A15539C00D0FF7E /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01BE6642A15539C00D0FF7E /* UIView+Extensions.swift */; };
+		F01BE6672A15696000D0FF7E /* MailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01BE6662A15696000D0FF7E /* MailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DA74C958423D18EF569219F /* Pods_customGmail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_customGmail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		904D7BA0201FD96CEB63CD3B /* Pods-customGmail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customGmail.debug.xcconfig"; path = "Target Support Files/Pods-customGmail/Pods-customGmail.debug.xcconfig"; sourceTree = "<group>"; };
+		A0166B58AF2CAF0C27D4FA80 /* Pods-customGmail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customGmail.release.xcconfig"; path = "Target Support Files/Pods-customGmail/Pods-customGmail.release.xcconfig"; sourceTree = "<group>"; };
+		F01BE61F2A15103900D0FF7E /* customGmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customGmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01BE6222A15103900D0FF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F01BE6242A15103900D0FF7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F01BE6292A15103900D0FF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F01BE62B2A15103A00D0FF7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F01BE62E2A15103A00D0FF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F01BE6302A15103A00D0FF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01BE6362A15119F00D0FF7E /* MailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCell.swift; sourceTree = "<group>"; };
+		F01BE65F2A1548F800D0FF7E /* Mail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
+		F01BE6642A15539C00D0FF7E /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		F01BE6662A15696000D0FF7E /* MailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F01BE61C2A15103900D0FF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D79184471EC415378AAFDB /* Pods_customGmail.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2259F32EC63C8887D04B78B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DA74C958423D18EF569219F /* Pods_customGmail.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		572D42AA3199802C49CD1DFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				904D7BA0201FD96CEB63CD3B /* Pods-customGmail.debug.xcconfig */,
+				A0166B58AF2CAF0C27D4FA80 /* Pods-customGmail.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F01BE6162A15103900D0FF7E = {
+			isa = PBXGroup;
+			children = (
+				F01BE6212A15103900D0FF7E /* customGmail */,
+				F01BE6202A15103900D0FF7E /* Products */,
+				572D42AA3199802C49CD1DFB /* Pods */,
+				2259F32EC63C8887D04B78B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F01BE6202A15103900D0FF7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F01BE61F2A15103900D0FF7E /* customGmail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F01BE6212A15103900D0FF7E /* customGmail */ = {
+			isa = PBXGroup;
+			children = (
+				F01BE6692A15779B00D0FF7E /* Models */,
+				F01BE6682A15778A00D0FF7E /* Extensions */,
+				F01BE6362A15119F00D0FF7E /* MailCell.swift */,
+				F01BE6222A15103900D0FF7E /* AppDelegate.swift */,
+				F01BE6242A15103900D0FF7E /* SceneDelegate.swift */,
+				F01BE6282A15103900D0FF7E /* Main.storyboard */,
+				F01BE6662A15696000D0FF7E /* MailsViewController.swift */,
+				F01BE62B2A15103A00D0FF7E /* Assets.xcassets */,
+				F01BE62D2A15103A00D0FF7E /* LaunchScreen.storyboard */,
+				F01BE6302A15103A00D0FF7E /* Info.plist */,
+			);
+			path = customGmail;
+			sourceTree = "<group>";
+		};
+		F01BE6682A15778A00D0FF7E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F01BE6642A15539C00D0FF7E /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F01BE6692A15779B00D0FF7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F01BE65F2A1548F800D0FF7E /* Mail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F01BE61E2A15103900D0FF7E /* customGmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01BE6332A15103A00D0FF7E /* Build configuration list for PBXNativeTarget "customGmail" */;
+			buildPhases = (
+				ABF9C3ACC7A92F0EDFEBE7C7 /* [CP] Check Pods Manifest.lock */,
+				F01BE61B2A15103900D0FF7E /* Sources */,
+				F01BE61C2A15103900D0FF7E /* Frameworks */,
+				F01BE61D2A15103900D0FF7E /* Resources */,
+				DFEC09EF94E878F5656F13F9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = customGmail;
+			productName = customGmail;
+			productReference = F01BE61F2A15103900D0FF7E /* customGmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F01BE6172A15103900D0FF7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F01BE61E2A15103900D0FF7E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F01BE61A2A15103900D0FF7E /* Build configuration list for PBXProject "customGmail" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F01BE6162A15103900D0FF7E;
+			productRefGroup = F01BE6202A15103900D0FF7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F01BE61E2A15103900D0FF7E /* customGmail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F01BE61D2A15103900D0FF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01BE62F2A15103A00D0FF7E /* LaunchScreen.storyboard in Resources */,
+				F01BE62C2A15103A00D0FF7E /* Assets.xcassets in Resources */,
+				F01BE62A2A15103900D0FF7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABF9C3ACC7A92F0EDFEBE7C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-customGmail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFEC09EF94E878F5656F13F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-customGmail/Pods-customGmail-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-customGmail/Pods-customGmail-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-customGmail/Pods-customGmail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F01BE61B2A15103900D0FF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01BE6652A15539C00D0FF7E /* UIView+Extensions.swift in Sources */,
+				F01BE6602A1548F800D0FF7E /* Mail.swift in Sources */,
+				F01BE6372A15119F00D0FF7E /* MailCell.swift in Sources */,
+				F01BE6232A15103900D0FF7E /* AppDelegate.swift in Sources */,
+				F01BE6672A15696000D0FF7E /* MailsViewController.swift in Sources */,
+				F01BE6252A15103900D0FF7E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F01BE6282A15103900D0FF7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F01BE6292A15103900D0FF7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F01BE62D2A15103A00D0FF7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F01BE62E2A15103A00D0FF7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F01BE6312A15103A00D0FF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F01BE6322A15103A00D0FF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F01BE6342A15103A00D0FF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904D7BA0201FD96CEB63CD3B /* Pods-customGmail.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJZYW2VK44;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = customGmail/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myOrganization.customGmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F01BE6352A15103A00D0FF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0166B58AF2CAF0C27D4FA80 /* Pods-customGmail.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJZYW2VK44;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = customGmail/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myOrganization.customGmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F01BE61A2A15103900D0FF7E /* Build configuration list for PBXProject "customGmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01BE6312A15103A00D0FF7E /* Debug */,
+				F01BE6322A15103A00D0FF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F01BE6332A15103A00D0FF7E /* Build configuration list for PBXNativeTarget "customGmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01BE6342A15103A00D0FF7E /* Debug */,
+				F01BE6352A15103A00D0FF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F01BE6172A15103900D0FF7E /* Project object */;
+}

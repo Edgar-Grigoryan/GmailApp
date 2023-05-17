@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0FE3D497-9528-445E-BBE4-191F42983140"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4E456E2-48C0-4D1B-8E84-4C0C09A8F891"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "customGmail/MailCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B4E456E2-48C0-4D1B-8E84-4C0C09A8F891 - 9ed3974d1337da0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "customGmail.MailCell.configure(size: __C.CGSize, with: customGmail.Mail) -&gt; ()"
+                  moduleName = "customGmail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edgargrigoryan/Projects/customGmail/customGmail/MailCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "B4E456E2-48C0-4D1B-8E84-4C0C09A8F891 - 5a6b288933403054"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "customGmail.MailCell.init(frame: __C.CGRect) -&gt; customGmail.MailCell"
+                  moduleName = "customGmail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edgargrigoryan/Projects/customGmail/customGmail/MailCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
